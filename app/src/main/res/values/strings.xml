@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CORE App</string>
+    <string name="core_login_label">C.O.R.E.</string>
+    <string name="inbox_button_label">INBOX</string>
+    <string name="announcements_button_label">ANNOUNCEMENTS</string>
+    <string name="connections_label">CONNECTIONS</string>
+    <string name="orientation_label">ORIENTATION</string>
+    <string name="resources_label">RESOURCES</string>
+    <string name="expectations_string">EXPECTATIONS</string>
 </resources>

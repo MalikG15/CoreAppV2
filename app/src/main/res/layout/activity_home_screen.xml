@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.lawrence.elijahcauley.coreapp.HomeScreenActivity"
+    android:background="#a1e183"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/connectionsButton"
+        android:clickable="true"
+        android:onClick="goToConnectionsHome"
+        android:allowUndo="true"
+        android:text="@string/connections_label"
+        android:textSize="45dp"
+        android:background="#2179a0"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:layout_weight=".25" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orientationButton"
+        android:layout_weight=".25"
+        android:clickable="true"
+        android:onClick="goToOrientation"
+        android:allowUndo="true"
+        android:text="@string/orientation_label"
+        android:textSize="50dp"
+        android:background="#4397bd"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resourcesButton"
+        android:background="#5dafd4"
+        android:clickable="true"
+        android:onClick="goToResources"
+        android:text="@string/resources_label"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:layout_weight=".25" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expectationsButton"
+        android:background="#8fd4f3"
+        android:clickable="true"
+        android:onClick="goToExpectations"
+        android:text="@string/expectations_string"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:layout_weight=".25" />
+
+</LinearLayout>
